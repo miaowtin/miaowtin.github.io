@@ -21,11 +21,14 @@
   <style>
         body {
             font-weight: 400 !important;
+            background: rgb(255,255,255);
+            background: radial-gradient(circle, rgba(255,255,255,1) 40%, rgba(235,235,241,1) 100%);
         }
         .container {
             width: 700px;
             max-width: 1025px !important;
             box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.1);
+            background-color: white;
         }
         .text-container {
             display: inline-block;
@@ -37,12 +40,33 @@
             width: 250px;
             max-width: 100%;
         }
+        .quote {
+            text-align: center;
+            padding-left:30px;
+            padding-right:30px;
+            font-size:small;
+        }
+        .row {
+            /* margin-top: -10px; */
+        }
   </style>
 
   <body>
 
     <div class="container">
-        <div class="row"><h1 class="mt-5 col-sm-12" style="text-align:center">Martin Leshko</h1><br></div><hr>
+        <div class="row">
+            <h1 class="mt-5 col-sm-12" style="text-align:center">Martin Leshko</h1>
+            <!-- <br> -->
+        </div>
+        <hr style="margin-bottom:-10px">
+        <div>
+            <br>
+            <div class="quote">
+                <i style="font-weight: 200">C’est dire que s’il y a une chose en mathématique qui (depuis toujours sans doute) me fascine plus que toute autre, ce n’est ni “le nombre”, ni “la grandeur”, mais toujours la forme. Et parmi les mille-et-un visages que choisit la forme pour se révéler à nous, celui qui m’a fasciné plus que tout autre et continue à me fasciner, c’est la structure cachée dans les choses mathématiques...</i>
+                <i style="text-align: right;">— Alexandre Grothendieck</i>
+            </div>
+        </div>
+        <hr>
         <div class="row">
             <div class="col-sm-7">
                 <div class="text-container">
@@ -59,7 +83,7 @@
                 <img class="img-responsive img-border img-left" src="me.jpg"/>
             </div>
         </div>
-        <hr style="margin-top:-5px; margin-bottom:-10px">
+        <hr style="margin-top:-5px; margin-bottom:-25px">
         <div class="row"><h3 class="mt-5 col-sm-12" style="text-align:center">Conferences and seminars</h3><br></div>
         <div class="row">
             <div class="col-sm-12" style="padding:15px">
@@ -85,7 +109,7 @@
                 </ol>
             </div>
         </div>
-        <hr style="margin-top:-5px; margin-bottom:-10px">
+        <hr style="margin-top:-5px; margin-bottom:-25px">
         <div class="row"><h3 class="mt-5 col-sm-12" style="text-align:center">Expository articles</h3><br></div>
         <div class="row">
             <div class="col-sm-12" style="padding:15px">
@@ -95,7 +119,7 @@
                 </ol>
             </div>
         </div>
-        <hr style="margin-top:-5px; margin-bottom:-10px">
+        <hr style="margin-top:-5px; margin-bottom:-25px">
         <div class="row"><h3 class="mt-5 col-sm-12" style="text-align:center">Miscellaneous</h3><br></div>
         <div class="row">
             <div class="col-sm-12" style="padding:15px">
